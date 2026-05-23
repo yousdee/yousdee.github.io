@@ -10,3 +10,43 @@
 .social-share .icon-qq {
     display: none !important;
 }
+
+/* ===== 全局字体设置 ===== */
+body {
+  font-family: "KaiTi", "STKaiti", "SimKai", "Microsoft YaHei", sans-serif !important;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "KaiTi", "STKaiti", "SimKai", serif !important;
+}
+
+/* 导航栏 */
+#nav {
+  font-family: "KaiTi", "STKaiti", serif !important;
+}
+
+/* 文章内容 */
+#article-container {
+  font-family: "KaiTi", "STKaiti", serif !important;
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+    background:#f2f2f2 !important;
+}
+
+/* 文章内容页 */
+.layout_post>#post{
+    background:#f2f2f2 !important;
+}
+
+/* 标签、分类、归档页面 */
+.layout > div:first-child{
+    background:#f2f2f2 !important;
+}
+
+/* 侧边栏 */
+#aside-content .card-widget{
+    background:#f2f2f2 !important;
+}
