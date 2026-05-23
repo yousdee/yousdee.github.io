@@ -1,3 +1,12 @@
 #footer {
     display: none !important;
 }
+
+.social-share .icon-facebook,
+.social-share .icon-twitter, /* 兼容老版本/原版插件的 X (Twitter) */
+.social-share .icon-x,       /* 兼容可能已经手动修改过类名的 X 平台 */
+.social-share .icon-wechat,
+.social-share .icon-weibo,
+.social-share .icon-qq {
+    display: none !important;
+}
